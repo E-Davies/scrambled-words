@@ -1,0 +1,118 @@
+body{
+    font-family: 'Exo', sans serif;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url(https://t3.ftcdn.net/jpg/03/08/71/84/360_F_308718440_Lsad7H4qi33o1ofctkV5CDNv51hiHbMS.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  h1{
+    font-size: 35px;
+    margin-top: 100px;
+    color: rgb(239, 240, 228);
+  }
+  
+  p{
+    color: rgb(239, 240, 228);
+  }
+  
+  #scrambled-word{
+    font-size: 24px;
+    color: rgb(239, 240, 228);
+  }
+  
+  #correct-word{
+      font-size: 20px;
+      color: rgb(239, 240, 228);
+  }
+  
+  button{
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 4px 8px 4px 8px;
+    color: blue;
+    
+  }
+  
+  input {
+    border-radius: 30px;
+    padding: 4px 8px 4px 8px;
+    color: blue;
+  }
+  
+  @media  (max-width: 580px){
+    /* To change style for viewing on mobile phones */
+    
+    body{
+      transform: scale(0.5);
+    }
+    
+    h1{
+      margin-top: -10px;
+    }
+    
+    button{
+      font-weight: 700;
+    }
+    
+    input{
+      font-weight: 700;
+    }
+      
+  }
+  
+  @media (min-width: 580px) and (max-width: 750px){
+    /* To change style for viewing on tablets (needs work) */
+    
+    body{
+      transform: scale(0.8);
+    }
+    
+    h1{
+      margin-top: 30px;
+    }
+    
+    button{
+      font-weight: 700;
+    }
+    
+    input{
+      font-weight: 700;
+    }
+      
+  }
+  
+  @media only screen and (min-width: 1050px) {
+     /* To change style for viewing on desktop (needs work)  */
+    
+    h1{
+      font-size: 75px;
+      margin-top: 180px;
+    }
+    
+    p{
+      font-size: 26px;
+    }
+    
+    #scrambled-word{
+      font-size: 44px;
+    }
+  
+    #correct-word{
+      font-size: 30px;
+    }
+    
+    button{
+      font-size: 20px;
+    }
+  
+    input{
+      font-size: 20px;
+  }
+  }
+  
